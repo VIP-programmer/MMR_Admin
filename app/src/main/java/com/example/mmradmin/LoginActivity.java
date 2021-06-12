@@ -40,8 +40,8 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     //non is empty
                     //testing password length
-                    if (! password.getText().equals("admin")
-                        || ! email.getText().equals("admin")
+                    if (! password.getText().toString().equals("admin")
+                        || ! email.getText().toString().equals("admin")
                     ){
                         Toast.makeText(getApplicationContext(),"Attention mot de passe incorrect",Toast.LENGTH_LONG).show();
                     }else {
