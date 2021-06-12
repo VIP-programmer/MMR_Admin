@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/about_shape"
+    android:gravity="center"
+    >
+    <EditText
+        android:id="@+id/nom_medicament"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_shape"
+        android:textSize="@dimen/reg_edit_text"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="Nom"
+        android:paddingHorizontal="10dp"
+        android:layout_marginHorizontal="15dp"
+        />
+    <EditText
+        android:id="@+id/prix_medicament"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_shape"
+        android:textSize="@dimen/reg_edit_text"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="Prix en (DH)"
+        android:inputType="number"
+        android:paddingHorizontal="10dp"
+        android:layout_marginHorizontal="15dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <android.widget.Button
+            android:id="@+id/cancel_medicament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="annuler"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/active_dot"
+            android:backgroundTint="@color/white_dark"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="20dp"
+            android:paddingHorizontal="20dp"/>
+        <android.widget.Button
+            android:id="@+id/add_medicament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/active_dot"
+            android:backgroundTint="@color/blue_light"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingHorizontal="20dp"/>
+    </LinearLayout>
+</LinearLayout>

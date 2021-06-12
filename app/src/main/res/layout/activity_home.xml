@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/voir_users"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/option_item"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_dark"
+            android:text="Consultez les comptes"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/lusitana_bold"
+            android:layout_marginVertical="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/new_medicament"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/option_item"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_dark"
+            android:text="Ajouter un medicament"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/lusitana_bold"
+            android:layout_marginVertical="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>
