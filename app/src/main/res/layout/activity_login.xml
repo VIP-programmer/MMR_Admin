@@ -157,6 +157,7 @@
                 android:textSize="20sp"
                 android:gravity="center"
                 android:maxLines="1"
+                android:inputType="text"
                 android:paddingHorizontal="15dp"
                 />
             <EditText

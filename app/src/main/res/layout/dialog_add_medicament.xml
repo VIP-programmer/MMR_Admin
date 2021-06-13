@@ -17,6 +17,8 @@
         android:hint="Nom"
         android:paddingHorizontal="10dp"
         android:layout_marginHorizontal="15dp"
+        android:maxLines="1"
+        android:inputType="text"
         />
     <EditText
         android:id="@+id/prix_medicament"
